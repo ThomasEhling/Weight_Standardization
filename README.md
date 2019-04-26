@@ -21,12 +21,14 @@ https://github.com/titu1994/Keras-Group-Normalization
 
 To implement WN we used a custom keras kernel regulizer funcitons :
 
-> def ws_reg(kernel):
-> >  kernel_mean = tf.math.reduce_mean(kernel, axis=[0, 1, 2], keepdims=True, name='kernel_mean')
-> >  kernel = kernel - kernel_mean
-> >  kernel_std = tf.keras.backend.std(kernel, axis=[0, 1, 2], keepdims=True)
-> >  kernel = kernel / (kernel_std + 1e-5)
-> >  return kernel
+```python
+def ws_reg(kernel):
+  kernel_mean = tf.math.reduce_mean(kernel, axis=[0, 1, 2], keepdims=True, name='kernel_mean')
+  kernel = kernel - kernel_mean
+  kernel_std = tf.keras.backend.std(kernel, axis=[0, 1, 2], keepdims=True)
+  kernel = kernel / (kernel_std + 1e-5)
+  return kernel
+```
 
 ## Results
 
