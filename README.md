@@ -1,7 +1,7 @@
 # Weight_Standardization
 Weight Standardization Analysis with Keras
 
-Weight standardization is a new regalurization technique that can outperform Batch Normalisation on micro batches, while reaching the same performance on large batches.
+Weight standardization is a new regularization technique that can outperform Batch Normalisation on micro batches, while reaching the same performance on large batches.
 
 **The original research paper :**
   Siyuan Qiao Huiyu Wang Chenxi Liu Wei Shen Alan Yuille : “Weight Standardization” (2019)
