@@ -19,7 +19,7 @@ https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tut
 To implement GN we used the code available at this repo :
 https://github.com/titu1994/Keras-Group-Normalization
 
-To implement WN we used a custom keras kernel regulizer funcitons :
+To implement WS we used a custom keras kernel regulizer funcitons :
 
 ```python
 def ws_reg(kernel):
@@ -38,8 +38,8 @@ Final accuracy per size and model :
 
 Batch size | 2 | 64 | 128
 :-:|:--:|:--:|:--:
-GN | 18.78 | 92.49 | 92.93
-BN+WS | 91.86 | 92.82 | 92.9
+BN | 18.78 | 92.49 | 92.93
+GN+WS | 91.86 | 92.82 | 92.9
 
 ## Files
 
