@@ -9,7 +9,7 @@ Weight standardization is a new regularization technique that can outperform Bat
 
 ## Experiments
 
-We tested the performance of Group Normalization (GN) + Weight Standardization (WS) against Batch Normalization (BN) with a multiclass classifier on the MNIST dataset.
+We tested the performance of Group Normalization (GN) + Weight Standardization (WS) against Batch Normalization (BN) with a multiclass classifier on the MNIST-FASHION dataset.
 
 We are using Python 3.6 and the Keras library.
 
